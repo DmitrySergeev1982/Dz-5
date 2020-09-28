@@ -1,0 +1,23 @@
+{
+  "name": "dz-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel dz5.html --open",
+    "build": "parcel build dz5.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitrySergeev1982/Dz-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitrySergeev1982/Dz-5/issues"
+  },
+  "homepage": "https://github.com/DmitrySergeev1982/Dz-5#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

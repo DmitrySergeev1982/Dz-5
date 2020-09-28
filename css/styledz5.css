@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    background: rgb(63, 207, 243);
+    width: 1000px;
+    margin: 0 auto;
+    padding:110px 220px 0px;
+    position: relative;
+}
+
+.content {
+    background: rgb(82, 82, 190);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 60px 90px 0;
+    position: relative;
+        
+}
+
+.content h1 {
+    padding: 20px 0;
+}
+
+.content p {
+    padding: 10px 0;
+}
+
+.content h2 {
+    padding: 20px 0 15px;
+}
+
+.menu {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 0;
+}
+
+.menu img {
+    padding: 0 15px;
+    width: 17%;  
+}
+
+.menu img:first-child {
+    padding-left: 0;
+}
+
+.menu img:last-child {
+    padding-right: 0;
+}
+
+footer img {
+    position: relative;
+    bottom: -4px;
+    left: -311px;
+    width: 176%;
+    margin-top: 30px;
+}
+
+.picture1 {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    z-index: 1;
+}
+
+.picture2 {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    z-index: 1;
+}
+
+.picture3 {
+    position: absolute;
+    right: 0px;
+    top: 480px;
+    z-index: 1;
+}
+
+.picture4 {
+    position: absolute;
+    left: 270px;
+    top: 530px;
+    z-index: 1;
+}
+
+.row {
+    position: fixed;
+    top: 140px;
+    left: 170px;
+}
+
+.icon {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border: 3px solid white;
+    margin: 8px 0;
+}
+
+
+
